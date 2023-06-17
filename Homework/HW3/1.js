@@ -6,8 +6,8 @@
 // градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
 
 function temperature() {
-    var celsius = Number.parseFloat(prompt('Введите температуру по Цельсию (дробь через точку!), и произойдет магия: '));
-    var fahrenheit = ((9 / 5) * celsius + 32);
+    const celsius = Number.parseFloat(prompt('Введите температуру по Цельсию (дробь через точку!), и произойдет магия: '));
+    const fahrenheit = ((9 / 5) * celsius + 32);
     alert('Цельсий: ' + celsius.toFixed(2) + ' ' + 'Фаренгейт: ' + fahrenheit.toFixed(2))
 }
 temperature()

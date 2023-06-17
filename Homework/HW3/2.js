@@ -2,8 +2,8 @@
 // используя переданное ей имя, в консоль.
 // Необходимо у пользователя запросить имя и вызвать функцию greeting, передав туда полученное от пользователя значение.
 
-function greeting() {
-    var user_name = prompt("Введите имя:"); 
+let user_name = prompt("Введите имя:");
+function greeting() { 
     console.log(`Салют, ${user_name}!`);
 }
 greeting()
